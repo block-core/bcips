@@ -11,11 +11,11 @@ Created: 2022-11-30
 
 ## Abstract
 
-Enabling trustless swaps between blockcore blockchains
+Enabling trustless swaps between Blockcore blockchains
 
 ## Motivation
 
-Right now blockchain networks on blockcore need to use centralized exchanges to be able to swap coins.  
+Right now blockchain networks on Blockcore need to use centralized exchanges to be able to swap coins.  
 With atomic swaps anyone will be able to swap coins without a 3rd party dependency,  
 additionally teams will be able to provide liquidity for onboarding new users on their blockchain network.  
 
