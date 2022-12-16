@@ -90,11 +90,11 @@ To avoid broadcasting issues all scripts will be P2SH or P2WSH
 We will reuse the swap pubkey the derivation we define for the swap pubkey is 
 `m / purpose' / coin_type' / account' / swap_key' / secret `
 
-purpse = 2
-coin_type = as defined in slip44
-account = 0
-swap_index = 0
-secret = unique and incrementing for each swap
+purpse = 3 - based on [BCIP3](https://github.com/block-core/bcips/blob/main/bcip-0003.md) we will derive a key for each account  
+coin_type = as defined in slip44  
+account = 0  
+swap_index = 0  
+secret = unique for each swap  
 
 Deriving the secret allows us to recover swap wallets in the future
 
@@ -114,12 +114,12 @@ To solve that we can potentially make a much smaller lock time on the buyers sid
 
 A collections of URLs with atomic swaps samples and discussions
 
-https://blog.bitmex.com/atomic-swaps-and-distributed-exchanges-the-inadvertent-call-option
-https://bitcointalk.org/index.php?topic=193281.msg2224949#msg2224949
-https://medium.com/blockchainio/what-are-atomic-swaps-bc1d034634c9
-http://atomic.bitcoinscri.pt/pages/about
-https://en.bitcoin.it/wiki/Atomic_swap
-http://diyhpl.us/wiki/transcripts/scalingbitcoin/tokyo-2018/atomic-swaps
-https://diyhpl.us/wiki/transcripts/scalingbitcoin/tokyo-2018/edgedevplusplus/cross-chain-swaps
-https://en.bitcoin.it/wiki/Contract#Example_5:_Trading_across_chains
-https://github.com/decred/atomicswap/blob/7c6928f1d1a8cd6ebe4bb6e0a0c907d423f75e13/cmd/btcatomicswap/main.go#L1137
+https://blog.bitmex.com/atomic-swaps-and-distributed-exchanges-the-inadvertent-call-option  
+https://bitcointalk.org/index.php?topic=193281.msg2224949#msg2224949  
+https://medium.com/blockchainio/what-are-atomic-swaps-bc1d034634c9  
+http://atomic.bitcoinscri.pt/pages/about  
+https://en.bitcoin.it/wiki/Atomic_swap  
+http://diyhpl.us/wiki/transcripts/scalingbitcoin/tokyo-2018/atomic-swaps  
+https://diyhpl.us/wiki/transcripts/scalingbitcoin/tokyo-2018/edgedevplusplus/cross-chain-swaps  
+https://en.bitcoin.it/wiki/Contract#Example_5:_Trading_across_chains  
+https://github.com/decred/atomicswap/blob/7c6928f1d1a8cd6ebe4bb6e0a0c907d423f75e13/cmd/btcatomicswap/main.go#L1137  
