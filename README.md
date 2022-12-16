@@ -10,7 +10,7 @@ Each BCIP should provide a concise technical specification of the feature and a 
 | ------------------------- | ------------------------- | ------------- | -------- |
 | [BCIP-0000](bcip-0000.md) | BCIP Template             | Informational | Accepted |
 | [BCIP-0001](bcip-0001.md) | RESERVED                  | Standard      | Draft    |
-| [BCIP-0003](bcip-0003.md) | Wallet Account            | Standard      | Draft    |
+| [BCIP-0003](bcip-0003.md) | Wallet Key                | Standard      | Accepted |
 | [BCIP-0302](bcip-0302.md) | Registered identity types | Standard      | Draft    |
 
 ---
