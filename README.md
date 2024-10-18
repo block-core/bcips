@@ -13,6 +13,7 @@ Each BCIP should provide a concise technical specification of the feature and a 
 | [BCIP-0002](bcip-0002.md) | Atomic Swaps              | Standard      | Draft    |
 | [BCIP-0003](bcip-0003.md) | Wallet Key                | Standard      | Accepted |
 | [BCIP-0302](bcip-0302.md) | Registered identity types | Standard      | Draft    |
+| [BCIP-0004](bcip-0004.md) | NFC Payment Solution      | Standard      | Draft    |
 
 ---
 
